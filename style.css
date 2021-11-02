@@ -1,0 +1,243 @@
+html {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: rgb(244,168,200);
+    background: -moz-linear-gradient(90deg, rgba(244,168,200,1) 0%, rgba(0,109,246,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(244,168,200,1) 0%, rgba(0,109,246,1) 100%);
+    background: linear-gradient(90deg, rgba(244,168,200,1) 0%, rgba(0,109,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4a8c8",endColorstr="#006df6",GradientType=1);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+}
+
+hr {
+    margin-left: 0;
+    width: 80px;
+    background: #000;
+}
+
+
+
+
+/* Customize the label (the container1) */
+.container1 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container1:hover input ~ .checkmark1 {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container1 input:checked ~ .checkmark1 {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark1/indicator (hidden when not checked) */
+  .checkmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark1 when checked */
+  .container1 input:checked ~ .checkmark1:after {
+    display: block;
+  }
+  
+  /* Style the checkmark1/indicator */
+  .container1 .checkmark1:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  /* Customize the label (the container2) */
+.container2 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container2:hover input ~ .checkmark2 {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container2 input:checked ~ .checkmark2 {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container2 input:checked ~ .checkmark2:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container2 .checkmark2:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+
+  /* Customize the label (the container3) */
+.container3 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox3 */
+  .container3 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox3 */
+  .checkmark3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container3:hover input ~ .checkmark3 {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox3 is checked, add a blue background */
+  .container3 input:checked ~ .checkmark3 {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark3/indicator (hidden when not checked) */
+  .checkmark3:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark3 when checked */
+  .container3 input:checked ~ .checkmark3:after {
+    display: block;
+  }
+  
+  /* Style the checkmark3/indicator */
+  .container3 .checkmark3:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #totalPrice{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
